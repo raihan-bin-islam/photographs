@@ -90,9 +90,9 @@ function ImageSlider(props) {
         <div className="button-container">
           <div
             className="heading-container"
-            style={heading == 0 ? { width: 0 + "rem" } : mouseOver ? { opacity: 1 } : null}
+            style={heading === 0 ? { width: 0 + "rem" } : mouseOver ? { opacity: 1 } : null}
           >
-            <h1 style={heading == 0 ? { opacity: 0 } : null}>{props.heading}</h1>
+            <h1 style={heading === 0 ? { opacity: 0 } : null}>{props.heading}</h1>
           </div>
           <button
             type="submit"

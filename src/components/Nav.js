@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { animateScroll as Link } from "react-scroll";
 export const Nav = () => {
   //State Variables
   const iconClass = ["mobile-icon", "mobile-icon open"];
